@@ -279,3 +279,42 @@ section {
   font-size: 16px;
   color: #27272799;
 }
+
+/* ******************* */
+/* FOOTER */
+/* ******************* */
+.footer {
+  background: #111010;
+  padding: 128px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  text-align: center;
+  max-width: 625px;
+}
+
+.footer-logo {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.footer-logo span {
+  color: #fff;
+}
+
+.footer-description {
+  color: #ffffffe6;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.copyright-text {
+  color: #ffffff66;
+  font-size: 16px;
+}
