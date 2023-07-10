@@ -46,6 +46,18 @@ section {
   border-radius: 8px;
 }
 
+.mb-sm {
+  margin-bottom: 16px;
+}
+
+.mb-md {
+  margin-bottom: 24px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
 /* ******************* */
 /* HERO SECTION */
 /* ******************* */
@@ -144,6 +156,7 @@ section {
 /* ******************* */
 .section-features {
   padding: 87px 175px;
+  margin-bottom: 128px;
   background: rgba(39, 39, 39, 0.05);
   border-radius: 8px;
   display: flex;
@@ -167,4 +180,31 @@ section {
   font-size: 24px;
   font-weight: 600;
   line-height: 35px;
+}
+
+/* ******************* */
+/* HOT DEALS SECTION */
+/* ******************* */
+.section-hot-deals {
+  background: #e554730d;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+}
+
+.hot-deals-content {
+  max-width: 594px;
+  text-align: center;
+}
+
+.hot-deals-content h2 span {
+  color: #e55473;
+}
+
+.hot-deals-image {
+  width: 318px;
+  height: 420px;
+  object-fit: contain;
 }
