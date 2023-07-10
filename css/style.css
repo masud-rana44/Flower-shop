@@ -8,12 +8,22 @@ body {
   font-family: Lato;
 }
 
+section {
+  margin-bottom: 128px;
+}
+
 /* ******************* */
 /* GENERAL STYLES */
 /* ******************* */
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.section-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .description {
@@ -41,6 +51,7 @@ body {
 /* ******************* */
 .section-hero {
   background: #e554731a;
+  margin-bottom: 178px;
 }
 
 .hero {
@@ -67,4 +78,63 @@ body {
   width: 635px;
   height: 800px;
   object-fit: contain;
+}
+
+/* ******************* */
+/* FEATURED FLOWERS SECTION */
+/* ******************* */
+
+.section-featured-flowers {
+  text-align: center;
+}
+
+.featured-text {
+  max-width: 594px;
+  margin: 0 auto 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.featured-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.featured-image {
+  width: 464px;
+  height: 538px;
+  padding: 110px 78px 0 78px;
+  border-radius: 300px 300px 0px 0px;
+  margin-bottom: 32px;
+}
+
+.featured-image--1 {
+  background: #a7216226;
+}
+
+.featured-image--2 {
+  background: #0597a026;
+}
+
+.featured-image--3 {
+  background: #477d1126;
+}
+
+.featured-image img {
+  width: 310px;
+  height: 428px;
+  object-fit: contain;
+}
+
+.featured-caption a {
+  text-decoration: none;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  border-bottom: 2px solid currentcolor;
 }
