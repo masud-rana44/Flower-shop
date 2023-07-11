@@ -182,7 +182,7 @@ section {
 
 .feature-title {
   color: #272727cc;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 35px;
 }
@@ -243,6 +243,10 @@ section {
 /* ******************* */
 .section-testimonials {
   background: #e554730d;
+  background-image: url("../images/testimonial-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 1051px;
+  background-position-y: 7px;
   padding: 100px 0;
   text-align: center;
 }
