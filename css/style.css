@@ -51,6 +51,11 @@ section {
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:active {
+  background: #e86581;
+}
+
 .mb-sm {
   margin-bottom: 16px;
 }
