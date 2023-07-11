@@ -256,12 +256,16 @@ section {
   text-align: center;
 }
 
+.testimonials-text {
+  max-width: 594px;
+  margin: 0 auto 120px;
+}
+
 .testimonials-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin-top: 120px;
 }
 
 .testimonial {
