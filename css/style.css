@@ -239,6 +239,83 @@ section {
 }
 
 /* ******************* */
+/* TESTIMONIALS SECTION */
+/* ******************* */
+.section-testimonials {
+  background: #e554730d;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.testimonials-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 120px;
+}
+
+.testimonial {
+  flex: 1;
+  min-height: 350px;
+  position: relative;
+  background: #efefef;
+  padding: 70px 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.testimonial-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #272727cc;
+}
+
+.testimonial-text::before {
+  content: "\201C";
+  bottom: -20px;
+  right: 5px;
+  font-size: 50px;
+  position: relative;
+  line-height: 20px;
+  color: #e55473;
+}
+
+.testimonial-text::after {
+  content: "\201D";
+  bottom: -20px;
+  right: -5px;
+  font-size: 50px;
+  position: relative;
+  line-height: 20px;
+  color: #e55473;
+}
+
+.testimonial-author {
+  font-size: 20px;
+  color: #272727cc;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ******************* */
 /* CALL TO ACTION SECTION */
 /* ******************* */
 .section-cta {
